@@ -5,8 +5,12 @@
     height:800px;
 }
 
-.body{
-    background-color: gray;
+body{
+   font-family: 'Times New Roman', Times, serif;
+}
+li a {
+    color:white;
+    text-decoration: none;
 }
 .navbar{
     background-color: bisque;
@@ -22,10 +26,16 @@
     width:100%;
     object-fit:cover;
 }
-
+.card-img-top {
+    height:1000px;
+    object-fit: cover;
+}
 .navbar-brand {
     font-size: 28px;
     font-style: bold;
+}
+.input-data {
+
 }
 header .landing {
     width:100%;
@@ -79,14 +89,15 @@ header .landing {
     inline-size: 1300px;
 }
 .title {
-    inline-size: 700px;
-    overflow-wrap: break-word;
+    margin-top: 350px;
+    
+    
     text-align: left;
     padding:8px;
     font-weight: lighter;
     font-size: 28px;
     color:white;
-    position: absolute;
+   
 }
 .btn {
     margin-left: 10px;
@@ -170,11 +181,7 @@ header .landing {
     object-fit: cover;
 }
 @media screen and (max-width: 600px ) {
-   .title {
-    padding-right: 25px;
-    font-size: 23px;
-    inline-size: 420px;
-   }
+   
    #main-section p {
     
     inline-size:400px;
@@ -228,14 +235,31 @@ header .landing {
     margin-left: 138px;
 
 }
-
+.input-data-sm {
+    width:100%;
+    margin-top: 6px;
+}
+.input-data-sm-s {
+   width:100%;
+   margin-top: 6px;
+}
+.input-data-sm-m {
+    margin-top: 6px;
+    width:100%;
+    height:200px;
+}
+.btn-outline {
+    padding: 5px 28px 5px 28px;
+    text-transform: uppercase;
+    background-color: white;
+    border: grey solid 1px;
+    border-radius: 0;
+}
 }
 
 @media screen and (min-width: 600px) and (max-width:1000px) {
     .title {
-        padding-right: 25px;
-        font-size: 28px;
-        inline-size: 400px;
+        margin-top: 500px;
        }
     #main-section p {
         inline-size:500px;
@@ -284,6 +308,26 @@ header .landing {
         margin-left: 290px;
         padding-bottom:20px;
     }
+    .input-data-sm {
+        width:100%;
+        margin-top: 6px;
+    }
+    .input-data-sm-s {
+       width:100%;
+       margin-top: 6px;
+    }
+    .input-data-sm-m {
+        margin-top: 6px;
+        width:100%;
+        height:200px;
+    }
+    .btn-outline {
+        padding: 5px 28px 5px 28px;
+        text-transform: uppercase;
+        background-color: white;
+        border: grey solid 1px;
+        border-radius: 0;
+    }
 }
 @media screen and (min-width: 1000px) {
     #main-section p {
@@ -303,14 +347,25 @@ header .landing {
         margin-top: 250px;
         position:absolute;
     }
-    
-}
-
-@keyframes myfirst {
-    0%{
-        transform: translate(-25%,-75%) rotate (0deg);
+        
+    .input-data-sm {
+        width:100%;
+        margin-top: 6px;
     }
-    100%{
-        transform: translate(-25%,-75%) rotate (360deg);
+    .input-data-sm-s {
+       width:100%;
+       margin-top: 6px;
+    }
+    .input-data-sm-m {
+        margin-top: 6px;
+        width:100%;
+        height:200px;
+    }
+    .btn-outline {
+        padding: 5px 28px 5px 28px;
+        text-transform: uppercase;
+        background-color: white;
+        border: grey solid 1px;
+        border-radius: 0;
     }
 }
