@@ -8,18 +8,27 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Piblasan</title>
 </head>
+  <style>
+    .container {
+      overflow-y: scroll;
+      box-sizing: border-box;
+      overflow-x: hidden;
+    }
+  </style>
 <body>
     <header>
           <div class="container">
-              <h1 class="title position-absolute top-50 translate-middle-y ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum totam suscipit doloremque modi voluptas natus ipsa, quidem facere fugit.</h1>
+            <div class="position-absolute col-11 col-lg-4 col-md-11">
+              <h1 class="title " style="color:white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores eum totam suscipit doloremque modi voluptas natus ipsa, quidem facere fugit.</h1>
+            </div>
               <button type="button" class="btn btn-outline-light position-absolute top-50  translate-middle-y">Buy Now!</button>
           </div>
           
           <video class="landing-video" autoplay loop muted>
-            <source  src="vid/landing.mp4" class="landing-video" type="video/mp4" />
+            <source  src="v " class="landing-video" type="video/mp4" />
           </video>
             
-          <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav-underline">
+          <nav class="navbar navbar-expand-lg fixed-top nav-underline">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><span class="text-warning">Piblasan</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +64,7 @@
                     <a class="nav-link " href="location.html">Location</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link "href="#">Contact Us!</a>
+                    <a class="nav-link "href="contact.html">Contact Us!</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " href="about.html">About us</a>
@@ -71,7 +80,7 @@
 
       <section id="about" class="about-section-padding">
         <div class="container">
-                  <h1>Today's Featured</h1>
+                  <h1 class="text-center display-1">Today's Featured</h1>
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="about-img">
@@ -139,21 +148,20 @@
     <div class="card text-bg-dark">
       <img src="img/feat.jpg" class="img-fluid" class="card-img" alt="...">
       <div class="card-img-overlay">
-        <h5 class="card-title">COMING SOON...</h5>
-        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto odio quae suscipit totam inventore exercitationem repudiandae.</p>
-        <p class="card-text"><small>This is the Upcoming Clothes for 2023</small></p>
-      </div>
+          <h5 class="card-title" style="color:black;">COMING SOON...</h5>
+          <p class="card-text" style="color:black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto odio quae suscipit totam inventore exercitationem repudiandae.</p>
+          <p class="card-text" style="color:black;"><small>This is the Upcoming Clothes for 2023</small></p>
     </div>
 
       <footer class="text-dark py-4">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h5>About Us</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non scelerisque quam. Duis non dui rutrum, auctor est at, fermentum mauris.</p>
+            <div class="col-md-6" >
+              <h5 style="color:white;">About Us</h5>
+              <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non scelerisque quam. Duis non dui rutrum, auctor est at, fermentum mauris.</p>
             </div>
             <div class="col-md-3">
-              <h5>Quick Links</h5>
+              <h5 style="color:white;">Quick Links</h5>
               <ul class="list-unstyled">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -162,11 +170,11 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <h5>Contact Us</h5>
+              <h5 style="color:white;">Contact Us</h5>
               <ul class="list-unstyled">
-                <li><i class="fas fa-map-marker-alt"></i> Shrine Highway, Capas Tarlac, Country</li>
-                <li><i class="fas fa-envelope"></i> info@example.com</li>
-                <li><i class="fas fa-phone-alt"></i> +1 123 456 7890</li>
+                <li style="color:white;"><i class="fas fa-map-marker-alt"></i> Shrine Highway, Capas Tarlac, Country</li>
+                <li style="color:white;"><i class="fas fa-envelope"></i> info@example.com</li>
+                <li style="color:white;"><i class="fas fa-phone-alt"></i> +1 123 456 7890</li>
               </ul>
             </div>
           </div>
